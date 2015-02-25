@@ -104,7 +104,7 @@ $( document ).ready(function() {
 
         // hide overlay/show item text on button click
         workButton.click(function() {
-            $(this).hide().next().next().fadeOut(1000).next().fadeIn(1000);
+            $(this).hide().next().css('color','#333').next().fadeOut(1000).next().fadeIn(1000);
         });
 
         // restore initial work state from item text view
@@ -116,7 +116,7 @@ $( document ).ready(function() {
     function initialWorkState() {
         workButton.fadeOut(1000);
         $(overlay).css('cursor','pointer').removeClass('overlayHover').fadeIn(1000);
-        close.fadeOut(1000);
+        close.fadeOut(1000).css('color','#fff');
         $('.description').fadeOut(1000);
         learnerator.animate({
             width:'33.33%'

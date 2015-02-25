@@ -329,8 +329,9 @@ nav li a:hover,
   position: absolute;
   top: 90px;
   right: 40px;
-  z-index: 500;
+  z-index: 50;
   font-size: 150%;
+  color: #fff;
   cursor: pointer; }
   @media screen and (max-width: 667px) {
     .close {
@@ -421,8 +422,8 @@ nav li a:hover,
     .floatRight {
       width: 100%;
       float: none;
-      margin-bottom: 100px;
-      padding: 40px 0; } }
+      margin-bottom: 80px;
+      padding: 40px 0 160px 0; } }
   @media screen and (max-width: 667px) {
     .floatRight {
       margin-bottom: 0;

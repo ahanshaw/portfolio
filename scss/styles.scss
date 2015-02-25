@@ -417,8 +417,9 @@ nav li a:hover,
     position:absolute;
     top:90px;
     right:40px;
-    z-index: 500;
+    z-index: 50;
     font-size:150%;
+    color:$white;
     cursor:pointer;
     @media screen and (max-width: $smallBreak) {
         display:none;
@@ -501,8 +502,8 @@ nav li a:hover,
     @media screen and (max-width: $mediumBreak) {
         width:100%;
         float:none;
-        margin-bottom:100px;
-        padding:40px 0;
+        margin-bottom:80px;
+        padding:40px 0 160px 0;
     }
     @media screen and (max-width: $smallBreak) {
         margin-bottom:0;
